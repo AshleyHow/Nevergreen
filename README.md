@@ -22,8 +22,6 @@ Evergreen relies on API queries to obtain its data, and HTML scraping is not wel
 - Adobe Acrobat Reader / Pro
   - MSP update patches only
   - Evergreen does not always report the latest optional releases, whereas this implementation should.
-- AdoptOpenJDK
-  - Evergreen does not currently support all release types.
 - Advanced Installer
 - Advanced IP Scanner
 - Advanced Port Scanner
@@ -33,18 +31,26 @@ Evergreen relies on API queries to obtain its data, and HTML scraping is not wel
 - AutoIt
 - Cisco Webex
   - This is the new Webex app, AKA Webex Teams. Evergreen returns results for the old Webex Meetings app. This may be deprecated if Evergreen is updated to support both.
+- Cisco Webex Access Anywhere
 - Cisco Webex Support Manager
 - Citrix Files
+- Eclipse Temeru Runtime (AKA AdoptOpenJDK Hotspot)
+- FileOpen Plugin
 - Fujifilm Pixel Shift Combiner
 - Fujifilm Raw File Converter EX
 - Fujifilm X Acquire
 - Fujifilm X Raw Studio
 - Fujifilm X Webcam
+- Google Drive
+- Google Earth Pro
+- IBM Semeru Runtime (AKA AdoptOpenJDK OpenJ9)
 - IGEL Universal Management Suite
 - Jabra Direct
 - Komodo Labs NEWT Professional
 - Komodo Labs Slitheris
 - Lenovo Commercial Vantage
+- LibreOffice / LibreOfficeHelp
+  - Evergreen implementation uses update API which does not return the latest versions currently.
 - Logitech Camera Setings
 - Master Packager
 - Microsoft Azure CLI
@@ -61,6 +67,9 @@ Evergreen relies on API queries to obtain its data, and HTML scraping is not wel
 - Mimecast for Outlook
 - Miniconda
 - nmap
+- Notepad3
+- Npcap
+- Opera
 - Philippe Jounin Tftpd64
 - Plantronics Hub
 - Python
@@ -74,6 +83,7 @@ Evergreen relies on API queries to obtain its data, and HTML scraping is not wel
 - TMurgent AppVDefConGroups
 - TMurgent AppVManage
 - TMurgent AppVManifestEditor
+- TMurgent PsfTooling
 - TMurgent PullApps
 - TMurgent TMEdit
 - TMurgent TMEditX
